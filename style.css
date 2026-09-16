@@ -1,0 +1,82 @@
+/* inter-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/inter-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./fonts/inter-v13-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-tight-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 600;
+  src: url('./fonts/inter-tight-v7-latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+  html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  body {
+    background-color: #E1D4C9;
+    margin: 0;
+  }
+  .header {
+    margin: 20px 0px;
+  }
+  .container {
+    max-width: 1360px;
+    margin: 0 auto;
+  }
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+   .header__nav-list {
+    display: flex;
+  }
+  .header__item {
+    list-style-type: none;
+  }
+  .header__item:last-child {
+    margin-right: 0px;
+  }
+  .header__link {
+    text-decoration: none;
+    margin-right: 40px;
+    color: #403F3D;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+  }
+  .menu-link {
+    text-decoration: none;
+    color: #403F3D;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+    margin-right: 8px;
+  }
+  .menu {
+    padding-top: 14px;
+  }
+  .menu a {
+    margin-top: 3px;
+  }
