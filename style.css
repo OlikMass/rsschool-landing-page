@@ -268,3 +268,30 @@
   .about {
     margin-bottom: 60px;
   }
+
+   /*mobile-app section*/
+    .mobile-app {
+      margin-bottom: 100px;
+    }
+  .mobile-app__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .mobile-app__text {
+    max-width: 630px;
+    margin-top: 144px;
+  }
+  .mobile-app__text h2 {
+    text-align: left;
+    margin: 0px;
+  }
+  .mobile-app__p {
+    color: #403F3D;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin: 40px 0px;
+  }
