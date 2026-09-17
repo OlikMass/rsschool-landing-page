@@ -350,3 +350,35 @@ line-height: 150%; /* 14px */
     font-style: italic;
     color: #B0907A;
   }
+  .social {
+    display: flex;
+  }
+  .social__button {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: 1px solid #C1B6AD;
+    margin-right: 12px;
+    padding: 18px;
+  }
+  .contant-us h3 {
+    color: #E1D4C9;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 30px */
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+  .contant-us p {
+    color:  #E1D4C9;
+font-family: 'Inter';
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+}
+.contant-us img {
+  margin-right: 8px;
+}
