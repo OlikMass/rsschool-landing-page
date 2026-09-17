@@ -382,3 +382,53 @@ line-height: 150%; /* 24px */
 .contant-us img {
   margin-right: 8px;
 }
+/*menu__page menu*/
+.menu-section__h1 {
+color: #403F3D;
+font-family: 'Inter';
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 75px */
+text-align: center;
+margin-top: -5px;
+}
+.menu-section__h1 span {
+color: #B0907A;
+font-family: 'Inter';
+font-size: 60px;
+font-style: italic;
+font-weight: 600;
+line-height: 125%;
+}
+.menu-section__buttons {
+  max-width: 361px;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0px 40px 500px;
+}
+#first {
+  background-color: #665F55;
+}
+#active{
+  color: #E1D4C9;
+}
+.menu-section__buttons span {
+  color:  #403F3D;
+font-family: 'Inter';
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+margin-left: 7px;
+}
+.menu-section__buttons div {
+padding: 8px 16px 8px 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 100px;
+border: 1px solid #C1B6AD;
+margin-right: 16px;
+height: 46px;
+}
