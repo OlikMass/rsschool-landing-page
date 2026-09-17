@@ -325,3 +325,28 @@ font-style: normal;
 font-weight: 600;
 line-height: 150%; /* 14px */
   }
+  /*footer*/
+  .footer__content {
+    max-width: 530px;
+    margin-right: 100px;
+  }
+  .footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #665F55;
+    border-radius: 40px;
+    padding: 100px;
+  } 
+    .footer__content h2 {
+    margin: 0px 0px 40px;
+    color: #E1D4C9;
+    font-family: 'Inter';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 75px */
+  }
+  .footer__content span {
+    font-style: italic;
+    color: #B0907A;
+  }
