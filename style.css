@@ -508,4 +508,64 @@ height: 46px;
 .header__nav {
   display: none;
 }
+.menu {
+  display: none;
+}
+.container {
+  max-width: 768px;
+  padding: 0 40px;
+  }
+  .hero__img {
+    padding: 100px 60px;
+  }
+.about__content {
+  flex-wrap: wrap;
+}
+#image1 {
+  display: none;
+}
+#image2 {
+  display: none;
+}
+.about__right {
+  margin-left: 0px;
+}
+.about__image {
+  margin-bottom: 36px;
+}
+.about__image {
+  overflow: hidden;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.about__content div {
+  display: block;
+}
+.about {
+  margin-bottom: 0px;
+}
+.mobile-app__text {
+  max-width: 688px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.mobile {
+  max-width: 688px;
+  padding: 0 29px;
+}
+.mobile-app {
+  margin-bottom: 95px;
+}
+.footer__container {
+  padding: 100px 60px;
+ }
+ .footer__content {
+  width: 100%;
+  margin-right: 0px;
+  margin-bottom: 70px;
+}
+.footer__container {
+  padding-bottom: 90px;
+} 
 }
