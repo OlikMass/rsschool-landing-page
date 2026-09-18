@@ -136,6 +136,10 @@
   #theme_first {
     background-color: #B0907A;
   }
+  .dark_theme {
+    background-color: #292826;
+  }
+
   .hero__content {
     max-width: 530px;
   }
