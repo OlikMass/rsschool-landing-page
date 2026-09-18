@@ -491,3 +491,21 @@ height: 46px;
   font-weight: 600;
   line-height: 125%; /* 30px */
 }
+/*media screen*/
+/*tablet*/
+.wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+    .burger {
+    display: block;
+  }
+.header__nav {
+  display: none;
+}
+}
