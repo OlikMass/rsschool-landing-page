@@ -27,11 +27,16 @@
   --bg-color:#E1D4C9;
   --text-color:#403F3D;
   --bg-footer:#665F55;
+  --bg-sun: #B0907A;
+  --bgimg-moon: url(./img/Dark\ \(1\).png);
+  --bgimg-moonhover: url(./img/Dark.png);
 }
 .dark-theme {
   --bg-color:#292826;
   --text-color:#E1D4C9;
   --bg-footer:#403F3D;
+  --bg-sun:#292826;
+  --bgimg-moon: url(./img/Dark\ \(2\).png);
 }
 
   html {
@@ -123,11 +128,11 @@
     padding: 3px;
   }
   #theme_second {
-      background-image: url(./img/Dark\ \(1\).png);
+      background-image: var(--bgimg-moon);
       
   }
   #theme_second:hover {
-      background-image: url(./img/Dark.png);
+      background-image: var(--bgimg-moonhover);
       
   }
   .theme div {
@@ -146,7 +151,7 @@
     align-items: center;
   }
   #theme_first {
-    background-color: #B0907A;
+    background-color: var(--bg-sun);
   }
 
   .hero__content {
