@@ -438,7 +438,7 @@ line-height: 150%; /* 24px */
 }
 /*menu__page menu*/
 .menu-section__h1 {
-color: #403F3D;
+color: var(--text-color);
 font-family: 'Inter';
 font-size: 60px;
 font-style: normal;
@@ -462,13 +462,13 @@ line-height: 125%;
   margin: 40px 0px 40px 500px;
 }
 #first {
-  background-color: #665F55;
+  background-color: var(--bg-footer);
 }
 #active{
   color: #E1D4C9;
 }
 .menu-section__buttons span {
-  color:  #403F3D;
+  color:  var(--text-color);
 font-family: 'Inter';
 font-size: 16px;
 font-style: normal;
@@ -519,7 +519,7 @@ height: 46px;
 }
 .card__h3 {
   margin: 0px;
-  color:  #403F3D;
+  color: var(--text-color);
   font-family: 'Inter';
   font-size: 24px;
   font-style: normal;
@@ -528,7 +528,7 @@ height: 46px;
 }
 .text {
   margin: 12px 0px 0px;
-  color: #403F3D;
+  color: var(--text-color);
   font-family: 'Inter';
   font-size: 16px;
   font-style: normal;
@@ -538,7 +538,7 @@ height: 46px;
 }
 .price {
   margin: 0px 0px 20px;
-  color: #403F3D;
+  color: var(--text-color);
   font-family: 'Inter';
   font-size: 24px;
   font-style: normal;

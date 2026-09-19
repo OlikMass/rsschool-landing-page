@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="dark-theme">
+    <script>
+    const savedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+      document.body.classList.add('dark-theme');
+    }
+  </script>
     <div class="wrapper">
         <header class="header">
             <div class="container">
@@ -22,7 +30,7 @@
                     </ul>
                     </nav>
                     <div class="theme_container">
-                        <div class="theme">
+                        <div class="theme" id="theme-button">
                             <div id="theme_first"><img src="./img/Sun.png" alt="img"></div>
                             <div id="theme_second"></div>
                         </div>
@@ -103,7 +111,7 @@
                         </div>
                     </div>
                     <div class="mobile">
-                        <img class="mobile__img" src="./img/mobile-screens.png" alt="mobile">
+                        <img class="mobile__img" src="./img/mobile-screens (1).png" alt="mobile">
                     </div>
                 </div>
             </div>
@@ -135,5 +143,6 @@
             </div>
         </footer>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>
