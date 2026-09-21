@@ -1,1 +1,1 @@
-# rsschool-landing-page
+https://olikmass.github.io/rsschool-landing-page/
