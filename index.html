@@ -63,22 +63,40 @@
             </div>
         </section>
         <section class="favorite-coffee" id="favorite-coffee">
-            <div class="container">
+            <div class="coffeecontainer">
                 <h2 class="h2">Choose your <span>favorite</span> coffee</h2>
                 <div class="slider">
-                    <button class="slider__button"><img src="./img/arrow-left.svg" alt="arrow"></button>
-                    <div class="slider__content">
-                        <img src="./img/coffee-slider-1.png" alt="coffee">
-                        <h3 class="slider__tittle">S’mores Frappuccino</h3>
-                        <p class="slider__text">This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk.</p>
-                        <p class="slider__price">$5.50</p>
+                    <button class="slider__button slider__button--prev">
+                        <img src="./img/arrow-left.svg" alt="arrow">
+                    </button>
+                    <div class="slider__window">
+                        <div class="slider__track">
+                            <div class="slider__content">
+                                <img src="./img/coffee-slider-1.png" alt="coffee">
+                                <h3 class="slider__tittle">S’mores Frappuccino</h3>
+                                <p class="slider__text">This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk.</p>
+                                <p class="slider__price">$5.50</p>
+                            </div>
+                            <div class="slider__content">
+                                <img src="./img/coffee-slider-2.png" alt="coffee">
+                                <h3 class="slider__tittle">Caramel Macchiato</h3>
+                                <p class="slider__text">Fragrant and unique classic espresso with rich caramel-peanut syrup, with cream under whipped thick foam.</p>
+                                <p class="slider__price">$5.00</p>
+                            </div>
+                            <div class="slider__content">
+                                <img src="./img/coffee-slider-3.png" alt="coffee">
+                                <h3 class="slider__tittle">Ice coffee</h3>
+                                <p class="slider__text">A popular summer drink that tones and invigorates. Prepared from coffee, milk and ice.</p>
+                                <p class="slider__price">$4.50</p>
+                            </div>
+                        </div>
                     </div>
-                    <button class="slider__button"><img src="./img/arrow-right.svg" alt="arrow"></button>
+                    <button class="slider__button slider__button--next"><img src="./img/arrow-right.svg" alt="arrow"></button>
                 </div>
                 <div class="controls">
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div class="control__line active"></div>
+                    <div class="control__line"></div>
+                    <div class="control__line"></div>
                 </div>
             </div>
         </section>

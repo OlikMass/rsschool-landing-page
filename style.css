@@ -206,7 +206,16 @@
     line-height: 150%; /* 24px */
     text-decoration: none;
   }
+
+
   /*section favorite-coffee*/
+  .coffeecontainer {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    text-align: center;
+  }
   .favorite-coffee {
     padding-top: 100px;
   }
@@ -239,9 +248,31 @@
     margin-left: 3px;
     margin-right: 3px;
   }
+  .slider__button:hover {
+    background-color: maroon;
+}
+
   .slider__content {
-    max-width: 480px;
-  }
+    min-width: 100%; /* Каждый слайд занимает ровно 100% ширины окна */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.slider__content img {
+    max-width: 100%;
+    height: auto;
+}
+  .slider__window {
+    width: 100%;
+    max-width: 480px; /* Ширина одного слайда на десктопе */
+    overflow: hidden;
+}
+/* Лента слайдов, которая смещается по оси X */
+.slider__track {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Плавная анимация */
+    width: 100%;
+}
   .slider__tittle {
     color: var(--text-color);
     font-family: 'Inter';
@@ -284,7 +315,7 @@
     background: #C1B6AD;
     margin-right: 12px;
   }
-  .controls div:first-child {
+  .control__line.active  {
     background: #665F55;
   }
   /*section about*/
@@ -577,9 +608,13 @@ height: 46px;
   .hero__img {
     padding: 100px 60px;
   }
+      .slider__window {
+        max-width: 400px;
+    }
 .about__content {
   flex-wrap: wrap;
 }
+
 #image1 {
   display: none;
 }
@@ -690,9 +725,12 @@ height: 46px;
   .about span {
     font-size: 32px;
   }
-  .slider__content {
-    max-width: 348px;
-  }
+  .slider__window {
+        max-width: 260px; /* Уменьшаем окно под маленькие экраны */
+    }
+    .control__line {
+        width: 30px; /* Чуть короче полоски */
+    }
   .slider__content img {
     max-width: 100%;
   }
