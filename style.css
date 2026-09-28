@@ -552,6 +552,24 @@ height: 46px;
   justify-content: space-between;
   margin-bottom: 58px;
 }
+.menu-section__tea {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 58px;
+}
+.menu-section__dessert {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 58px;
+}
+.display-none {
+  display: none;
+}
+.display-flex {
+  display: flex;
+}
 .menu-section__card {
   width: 310px;
   border-radius: 40px;
@@ -605,6 +623,12 @@ height: 46px;
   font-weight: 600;
   line-height: 125%; /* 30px */
 }
+.arrow {
+  display: none;
+}
+
+
+
 /*media screen*/
 /*tablet*/
 .wrapper {
@@ -708,6 +732,30 @@ height: 46px;
   justify-content: space-between;
   padding-left: 14px;
   padding-right: 14px;margin-bottom: 0;
+}
+.menu-section__tea {
+  justify-content: space-between;
+  padding-left: 14px;
+  padding-right: 14px;margin-bottom: 0;
+}
+.menu-section__dessert {
+  justify-content: space-between;
+  padding-left: 14px;
+  padding-right: 14px;margin-bottom: 0;
+}
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  border: 1px solid #665F55;
 }
 }
 
