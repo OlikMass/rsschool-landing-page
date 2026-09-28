@@ -12,19 +12,6 @@ darkBtn.addEventListener('click', () => {
 });
 
 
-const burgerBtn = document.getElementById('burger');
-const navList = document.getElementById('header-nav');
-const menuBtn = document.getElementById('header-menu');
-
-burgerBtn.addEventListener('click', () => {
-  burgerBtn.classList.toggle('active');
-  navList.classList.toggle('is-open');
-  menuBtn.classList.toggle('is-open');
-});
-
-
-
-
 
 document.addEventListener('DOMContentLoaded', () => {
     const track = document.querySelector('.slider__track');

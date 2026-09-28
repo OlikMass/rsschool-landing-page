@@ -626,6 +626,12 @@ height: 46px;
 .arrow {
   display: none;
 }
+.burger-close {
+  display: none;
+}
+.burger-open {
+  display: none;
+}
 
 
 
@@ -645,7 +651,7 @@ height: 46px;
     align-items: center;
     z-index: 10;
   }
-.header__nav {
+  .header__nav {
   display: none;
 }
 .menu {
